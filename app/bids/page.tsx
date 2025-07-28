@@ -357,7 +357,7 @@ export default function BidCenter() {
                 <div>
                   <p className="text-sm text-gray-600">Requirements</p>
                   <div className="flex flex-wrap gap-2 mt-1">
-                    {selectedBid.requirements.map((req, index) => (
+                    {selectedBid.requirements.map((req: any, index: number) => (
                       <span key={index} className="bg-blue-50 text-blue-700 px-2 py-1 rounded text-sm">
                         {req}
                       </span>
