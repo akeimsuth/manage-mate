@@ -592,7 +592,7 @@ export default function MaintenanceScheduler() {
               <div>
                 <p className="text-sm font-medium text-gray-700 mb-2">Attachments</p>
                 <div className="space-y-2">
-                  {selectedTask.attachments.map((file, index) => (
+                  {selectedTask.attachments.map((file: any, index: number) => (
                     <div key={index} className="flex items-center space-x-2">
                       <i className="ri-file-line text-gray-400"></i>
                       <span className="text-sm text-blue-600 hover:text-blue-700 cursor-pointer">{file}</span>
