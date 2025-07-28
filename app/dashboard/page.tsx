@@ -115,7 +115,7 @@ export default function Dashboard() {
           <p className="text-gray-600 mt-2">
             {userRole === 'admin'
               ? "Welcome back! Here's what's happening in your building."
-              : "Welcome back! Here are your assigned tasks and updates."]
+              : "Welcome back! Here are your assigned tasks and updates."}
           </p>
         </div>
 
