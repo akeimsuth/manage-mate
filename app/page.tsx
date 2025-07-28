@@ -176,11 +176,6 @@ export default function Home() {
             Join thousands of building managers who have streamlined their operations with ManageMate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/dashboard">
-              <Button size="lg" className="w-full sm:w-auto bg-white text-blue-600 hover:bg-gray-100">
-                Start Free Trial
-              </Button>
-            </Link>
             <Link href="/bids">
               <Button variant="outline" size="lg" className="w-full sm:w-auto border-white text-white hover:bg-white/10">
                 Schedule Demo
